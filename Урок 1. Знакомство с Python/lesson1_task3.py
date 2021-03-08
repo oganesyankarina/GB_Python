@@ -10,6 +10,7 @@ def input_n():
         nn = int(str_n + str_n)
         nnn = int(str_n + str_n + str_n)
         print(f'{n} + {nn} + {nnn} = {sum([n, nn, nnn])}')
+        # print(f'{str_n}+{str_n+str_n}+{str_n+str_n+str_n}={int(str_n)+int(str_n+str_n)+int(str_n+str_n+str_n)}')
     else:
         print('Вы ввели символы!')
         input_n()
